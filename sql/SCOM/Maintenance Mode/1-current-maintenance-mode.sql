@@ -38,3 +38,4 @@ WHERE vmet.ManagedEntityTypeDefaultName = 'Windows Computer'
 
 AND (vmm.EndDateTime >=  GETDATE() OR vmm.EndDateTime IS NULL)
 order by vmm.StartDateTime desc
+
